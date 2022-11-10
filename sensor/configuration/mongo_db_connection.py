@@ -8,7 +8,7 @@ class MongoDBClient:
     def __init__(self, database_name=DATABASE_NAME) -> None:
         try:
             if MongoDBClient.client is None:
-                # mongo_db_url = "mongodb+srv://avnish:XglZZ9OkjjUw74pZ@ineuron-ai-projects.7eh1w4s.mongodb.net/admin?authSource=admin&replicaSet=atlas-okvkrd-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true"
+                
                 # mongo_db_url  = "mongodb+srv://snehakulkarni:India1234@sensordb.tabgc53.mongodb.net/?retryWrites=true&w=majority"
                 mongo_db_url = "mongodb+srv://snehakulkarni:India1234@sensordb.tabgc53.mongodb.net/?retryWrites=true&w=majority"
                 MongoDBClient.client = pymongo.MongoClient(mongo_db_url, tlsCAFile=ca)
