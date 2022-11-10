@@ -8,3 +8,6 @@ S3 bucket name : sensor-fault-detection-pipeline
 
 ECR repo name : sensor-fault-detection
 URL:  870487387544.dkr.ecr.us-east-1.amazonaws.com/sensor-fault-detection
+
+Region:
+us-east-1
